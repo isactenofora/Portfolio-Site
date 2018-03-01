@@ -1,0 +1,233 @@
+body {
+  font-family: 'Hind', sans-serif;
+}
+
+.portfolioWeb {
+  padding-left: 100px;
+  margin-left: 100px;
+  padding-right: 100px;
+  margin-right: 100px;
+}
+
+.bigHr {
+ color: #c6b8d1;
+ border: solid 2px #c6b8d1;
+}
+
+.headBoard {
+  display: inline-block;
+}
+
+.udacity {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  float: left;
+}
+
+.frontal {
+  float: right;
+  padding-left: 250px;
+  margin-left:250px;
+  padding-top: 15px;
+}
+
+.name {
+  text-transform: uppercase;
+  color: #632580;
+  font-weight: normal;
+  letter-spacing: 2.5px;
+  margin: 0;
+  padding-top: 35px;
+}
+
+.devName {
+  text-transform: uppercase;
+  color: #632580;
+  font-weight: normal;
+  text-align: right;
+  margin: 0;
+}
+
+.coverPage {
+  width: 940px;
+  height: 400px;
+  display: inline;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.footerSection {
+  color: #c6b8d1;
+  font-weight: normal;
+}
+
+.project {
+  display:inline-grid;
+  padding-left: 18px;
+  margin-left: 10px;
+}
+
+.screenshot {
+  width: 280px;
+  height: 190px;
+}
+
+.projectTitle:hover {
+  background: #02b3e4;
+}
+
+.projectTitle {
+  text-transform: uppercase;
+  color: #632580;
+  font-weight: bold;
+  text-align: center;
+}
+
+.linkProject {
+  color: #632580;
+  font-size: x-small;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 640px) {
+  .portfolioWeb {
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .udacity {
+    width: 65px;
+    height: 55px;
+    margin-top: 30px;
+    margin-right: 18px;
+  }
+
+  .frontal {
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+
+  .devName {
+    font-size: 10px;
+  }
+
+  .coverPage {
+    width: 300px;
+    height: 200px;
+    display: inline;
+    padding-left: 2px;
+    margin-left: 2px;
+    padding-top: 5px;
+    margin-top: 10px;
+  }
+
+  .footerSection {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  .screenshot {
+    width: 90px;
+    height: 130px;
+    margin-left: 70px;
+    padding-left: 10px;
+  }
+
+  .projectTitle {
+    font-size: 10px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+  }
+
+  .linkProject {
+    margin-left: 20px;
+  }
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .portfolioWeb {
+    padding-left: 40px;
+    margin-left: 40px;
+    padding-right: 40px;
+    margin-right: 40px;
+  }
+
+  .headBoard {
+    margin-top: 20px;
+  }
+
+  .udacity {
+    width: 90px;
+    height: 80px;
+    margin-top: 15px;
+    margin-right: 18px;
+  }
+
+  .frontal {
+    padding-left: 55px;
+    margin-left: 150px;
+    padding-top: 0px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .devName {
+    font-size: 18px;
+  }
+
+  .coverPage {
+    width: 585px;
+    height: 300px;
+    display: inline;
+    padding-left: 3px;
+    margin-left: 3px;
+    padding-top: 5px;
+    margin-top: 10px;
+  }
+
+  .footerSection {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  .project {
+    margin-bottom: 30px;
+  }
+
+  .screenshot {
+    width: 140px;
+    height: 130px;
+    margin-left: 55px;
+  }
+
+  .projectTitle {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  .linkProject {
+    margin-left: 10px;
+  }
+
+}
